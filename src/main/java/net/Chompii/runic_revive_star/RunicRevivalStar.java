@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 public class RunicRevivalStar {
 
     public static final String Mod_ID = "runic_revive_star";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public RunicRevivalStar()
     {
