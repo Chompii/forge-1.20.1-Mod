@@ -20,7 +20,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(4).rarity(Rarity.EPIC).fireResistant()));
 
 
-    private static void register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
 }
